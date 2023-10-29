@@ -1,4 +1,3 @@
-import java.awt.*;
 import java.util.Scanner;
 
 public class Calculadora {
@@ -10,11 +9,13 @@ public class Calculadora {
         System.out.println("El resultado es: " + resultado);
     }
     public static void Menu() {
-        System.out.println("********* Menu de Calculadora *********");
-        System.out.println("1 para suma");
-        System.out.println("2 para resta");
-        System.out.println("3 para multiplicación");
-        System.out.println("4 para división");
+        System.out.println("""
+        ********* Menu de Calculadora *********
+        1 para suma
+        2 para resta
+        3 para multiplicación
+        4 para división  
+                """);
     }
     public static int SolicitudDatos(){
         System.out.println("Ingrese un numero: ");
