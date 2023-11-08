@@ -40,7 +40,7 @@ public class ListadoPersonasApp {
                 var persona = new Persona(nombre,numero,email);
                 //Agregamos a la lista
                 personas.add(persona);
-                System.out.println("La lista tiene: " + personas.size() + "elementos");
+                System.out.println("La lista tiene: " + personas.size() + " elementos");
             }
             case 2 ->{//Imprimir personas
                 System.out.println("El listado de personas: ");
