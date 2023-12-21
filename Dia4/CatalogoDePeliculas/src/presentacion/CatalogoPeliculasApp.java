@@ -31,8 +31,7 @@ public class CatalogoPeliculasApp {
                 2. Lista peliculas
                 3. Buscar pelicula
                 4. Salir
-                Elige una opción: 
-                """);
+                Elige una opción:""");
     }
 
     private static boolean ejecutarOperacion(Scanner consola, IServicioPelicula servicioPelicula){
